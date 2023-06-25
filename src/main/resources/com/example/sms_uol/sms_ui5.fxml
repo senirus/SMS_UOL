@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="517.0" prefWidth="642.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sms_uol.HelloController">
+   <children>
+      <Text layoutX="134.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" University of London" textAlignment="CENTER" wrappingWidth="375.63671875">
+         <font>
+            <Font name="Wingdings" size="30.0" />
+         </font>
+      </Text>
+      <Text layoutX="134.0" layoutY="111.0" strokeType="OUTSIDE" strokeWidth="0.0" text="New Student Signup" textAlignment="CENTER" wrappingWidth="375.63671875">
+         <font>
+            <Font name="Calisto MT" size="25.0" />
+         </font>
+      </Text>
+      <Button fx:id="formSubmit" layoutX="574.0" layoutY="470.0" mnemonicParsing="false" onAction="#formSubmitClick" text="SUBMIT" />
+      <Button fx:id="formBack" layoutX="19.0" layoutY="470.0" mnemonicParsing="false" onAction="#formBackClick" text="&lt;&lt; " />
+      <TextField fx:id="fullName" layoutX="55.0" layoutY="179.0" prefHeight="25.0" prefWidth="521.0" />
+      <Label layoutX="55.0" layoutY="162.0" text="Full Name :" />
+      <TextField fx:id="Degree" layoutX="55.0" layoutY="259.0" prefHeight="25.0" prefWidth="521.0" />
+      <Label layoutX="55.0" layoutY="235.0" text="Degree you prefer to study :" />
+      <TextField fx:id="eMail" layoutX="55.0" layoutY="331.0" prefHeight="25.0" prefWidth="521.0" />
+      <Label layoutX="55.0" layoutY="307.0" text="Email :" />
+      <TextField fx:id="newUsername" layoutX="55.0" layoutY="401.0" prefHeight="25.0" prefWidth="230.0" />
+      <Label layoutX="55.0" layoutY="377.0" text="User Name :" />
+      <TextField fx:id="newPassword" layoutX="344.0" layoutY="401.0" prefHeight="25.0" prefWidth="230.0" />
+      <Label layoutX="344.0" layoutY="377.0" text="New Password :" />
+      <Label fx:id="welcomeTxt2" layoutX="55.0" layoutY="441.0" prefHeight="18.0" prefWidth="263.0" textFill="#bf0000" />
+      <Button fx:id="formHome" layoutX="19.0" layoutY="18.0" mnemonicParsing="false" onAction="#formHomeClick" text="Home" />
+   </children>
+</AnchorPane>

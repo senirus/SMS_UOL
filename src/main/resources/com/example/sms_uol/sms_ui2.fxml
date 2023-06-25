@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="415.0" prefWidth="642.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sms_uol.HelloController">
+   <children>
+      <Text layoutX="133.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" University of London" textAlignment="CENTER" wrappingWidth="375.63671875">
+         <font>
+            <Font name="Wingdings" size="30.0" />
+         </font>
+      </Text>
+      <Text layoutX="133.0" layoutY="106.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Undergraduate Login" textAlignment="CENTER" wrappingWidth="375.63671875">
+         <font>
+            <Font name="Calisto MT" size="25.0" />
+         </font>
+      </Text>
+      <Label layoutX="201.0" layoutY="168.0" text="Username" />
+      <TextField fx:id="txtusername" layoutX="201.0" layoutY="189.0" prefHeight="26.0" prefWidth="263.0" />
+      <Label layoutX="201.0" layoutY="236.0" text="Password" />
+      <PasswordField fx:id="txtpassword" layoutX="201.0" layoutY="257.0" prefHeight="26.0" prefWidth="263.0" />
+      <Button fx:id="ugradLoginLogin" layoutX="202.0" layoutY="309.0" mnemonicParsing="false" onAction="#ugradLoginLoginClick" text="Login" />
+      <Button fx:id="ugradLoginHome" layoutX="14.0" layoutY="16.0" mnemonicParsing="false" onAction="#ugradLoginHomeClick" text="Home" />
+      <Label fx:id="welcomeTxt" layoutX="202.0" layoutY="354.0" prefHeight="18.0" prefWidth="263.0" textFill="#bf0000" />
+   </children>
+</AnchorPane>
