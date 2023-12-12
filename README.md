@@ -1,7 +1,6 @@
 # Student Management System
 
 ![Java](https://img.shields.io/badge/Java-%3E%3D8-brightgreen.svg)
-![License](https://img.shields.io/badge/License-MIT-blue.svg)
 
 A simple Student Management System written in Java for educational purposes.
 
